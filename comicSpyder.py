@@ -51,8 +51,8 @@ def findComicInfomation(comicNum):
         return max(text_list), title
     except:
         massage = 'Spyder system error.'
-        sendEmail.sendEmailMassage('yanghometcl@gmail.com', 'andy60136', 
-                                   'andy831201@gmail.com',massage)
+        sendEmail.sendEmailMassage('email', 'email_password',
+                                   'send_to_email',massage)
 
     
 #findComicInfomation('14735')
