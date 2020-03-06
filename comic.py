@@ -16,8 +16,8 @@ def comic(comicName):
         with open(filename, 'r') as f:
             comicNum, comicVersion = f.read().splitlines()
         massage = comicNum + " have newest version!\n https://tw.manhuagui.com/comic/" + comicNum + "/"
-        sendEmail.sendEmailMassage('yanghometcl@gmail.com', 'andy60136', 
-                                   'andy831201@gmail.com',massage)
+        sendEmail.sendEmailMassage('email', 'email_password',
+                                   'send_to_email', massage)
     elif comicInformation == 0:
         print(comicName , 'only have old version.')
     else:
