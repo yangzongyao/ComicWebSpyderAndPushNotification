@@ -28,7 +28,5 @@ def sendEmailMassage(user, user_pass, target, massage):
         print('Email sent over.')
     except:
         print('email send system error.')
-    
-#massage = 'Function test'
-#sendEmailMassage('yanghometcl@gmail.com','andy60136','andy831201@gmail.com', massage)
+
 
